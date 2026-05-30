@@ -1,111 +1,180 @@
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Hi+👋,+I'm+Sabyasachhi+Routray;B.Tech+CSE+Student+(+completed+);GATE+2025+Qualified;Java+Developer+in+Progress;UGC+NET+JRF+Aspirant;AI+Tools+Enthusiast;Always+Learning+New+Things" />
+<div align="center">
 
-<h1 align="center">🚀 Sabyasachhi Routray</h1>
+# 🚀 Sabyasachhi Routray
 
-<h3 align="center">
-Computer Science Engineering Student | Java Developer | DSA Enthusiast | AI Explorer
-</h3>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2500&pause=800&color=00C2FF&center=true&vCenter=true&width=1000&lines=B.Tech+CSE+Graduate+(2022-2026);GATE+2025+Qualified;Java+Full+Stack+Developer+in+Progress;UGC+NET+JRF+Aspirant;DSA+%7C+OS+%7C+DBMS+%7C+System+Design;AI+Tools+Enthusiast;Building+Projects+Every+Day+🚀" />
 
----
+<img src="https://komarev.com/ghpvc/?username=routray-sabyasachhi&label=Profile+Views&color=0e75b6&style=for-the-badge" />
 
-## 👨‍💻 About Me
-
-🎓 B.Tech CSE Student ( sept-2022 to 2026 ) => CGPA -> 8.63
-
-🏆 GATE 2025 Qualified
-
-💻 Learning Java Full Stack Development
-
-📚 Preparing for UGC NET JRF (CSE)
-
-🧠 Strong Interest in DSA, OS, DBMS & System Design
-
-🤖 Exploring AI Tools and Modern Technologies
-
-🌱 Lifelong Learner
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+# 👨‍💻 About Me
 
-### Languages
+```yaml
+Name: Sabyasachhi Routray
+Degree: B.Tech in Computer Science & Engineering
+CGPA: 8.63
+Batch: Sept 2022 - 2026
+Location: Odisha, India
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+Current Focus:
+  - Java Full Stack Development
+  - Data Structures & Algorithms
+  - System Design
+  - UGC NET JRF (CSE)
+  - AI Productivity Tools
+
+Achievements:
+  - GATE 2025 Qualified
+  - Multiple Technical Certifications
+```
+
+---
+
+# 🌟 Current Goals 2026
+
+- ✅ Complete Java Full Stack Development
+- ✅ Build 15+ Production Projects
+- ✅ Master System Design
+- ✅ Crack UGC NET JRF
+- ✅ Open Source Contributions
+- 🔄 Create Personal Portfolio Website
+
+---
+
+# ⚡ Tech Stack
+
+### Programming Languages
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=c,cpp,java,js" />
+</p>
 
 ### Frontend
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
+<p align="left">
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap" />
+</p>
 
 ### Database
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle)
+<p align="left">
+<img src="https://skillicons.dev/icons?i=mysql" />
+</p>
 
 ### Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)
+<p align="left">
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
 
 ---
 
-## 📊 GitHub Statistics
+# 🏆 Achievements
 
-![](https://github-readme-stats.vercel.app/api?username=routray-sabyasachhi&show_icons=true&theme=tokyonight)
+🏅 GATE 2025 Qualified
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=routray-sabyasachhi&theme=tokyonight)
+🏅 Problem Solving Using C++
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=routray-sabyasachhi&layout=compact&theme=tokyonight)
+🏅 IP Addressing & Subnetting Certification
 
----
+🏅 TCS Career Edge Certifications
 
-## 🏆 Achievements
-
-✅ GATE 2025 Qualified
-
-✅ Problem Solving Using C++
-
-✅ IP Addressing & Subnetting Certification
-
-✅ TCS free cerifications ( you can visit my certifications repo. )
+🏅 Active Learner in AI & Modern Technologies
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### Business Calculator from basic to advance ( On going )
-A professional calculator for business and financial calculations.
+## 💼 Business Calculator (Ongoing)
 
-### Mini Operating System Simulation
-CPU Scheduling, Memory Management, Page Replacement & Disk Scheduling in C++.
+A professional business calculation suite featuring:
 
-### Future Projects
-- Java Full Stack Applications
-- System Design Projects
-- AI-Powered Applications
-
----
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)]((https://www.linkedin.com/in/sabyasachhi-routray-275023345?utm_source=share_via&utm_content=profile&utm_medium=member_android))
-
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)]((https://github.com/routray-sabyasachhi/routray-sabyasachhi))
+- GST Calculator
+- EMI Calculator
+- SIP Calculator
+- Profit/Loss Calculator
+- Currency Conversion
+- Financial Planning Tools
 
 ---
 
-## 👀 Visitor Count
+## 💻 Mini Operating System Simulator
 
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge)
+Implemented using C++:
+
+✔ CPU Scheduling
+
+✔ Memory Management
+
+✔ Page Replacement
+
+✔ Disk Scheduling
+
+✔ Performance Analysis
 
 ---
 
-### 💡 Quote
+# 📊 GitHub Analytics
 
-"Consistency beats intensity. Learn every day, build every week, improve every month."
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=routray-sabyasachhi&show_icons=true&theme=tokyonight"/>
 
-⭐ Thanks for visiting my profile!
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=routray-sabyasachhi&layout=compact&theme=tokyonight"/>
+
+---
+
+# 🔥 GitHub Streak
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=routray-sabyasachhi&theme=tokyonight" />
+
+---
+
+# 🏆 GitHub Trophy Wall
+
+<img src="https://github-profile-trophy.vercel.app/?username=routray-sabyasachhi&theme=tokyonight&row=1&column=7" />
+
+---
+
+# 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=routray-sabyasachhi&theme=tokyo-night" />
+
+---
+
+# 🧠 Coding Profiles
+
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge)](YOUR_GFG_LINK)
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge)](YOUR_LEETCODE_LINK)
+
+[![CodeChef](https://img.shields.io/badge/CodeChef-brown?style=for-the-badge)](YOUR_CODECHEF_LINK)
+
+---
+
+# 🌐 Connect With Me
+
+<a href="https://www.linkedin.com/in/sabyasachhi-routray-275023345">
+<img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://github.com/routray-sabyasachhi">
+<img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
+</a>
+
+---
+
+# 💡 Developer Quote
+
+> "Consistency beats intensity. Learn every day, build every week, improve every month."
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+🚀 Building Today For A Better Tomorrow
+
+</div>
