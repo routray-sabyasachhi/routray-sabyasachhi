@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: italic, sans-serif;
+}
