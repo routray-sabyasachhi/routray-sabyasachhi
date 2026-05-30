@@ -1,10 +1,16 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/routray-sabyasachhi/Certifications/main/md.jpeg" width="180" />
+
 # 🚀 Sabyasachhi Routray
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2500&pause=800&color=00C2FF&center=true&vCenter=true&width=1000&lines=B.Tech+CSE+Graduate+(2022-2026);GATE+2025+Qualified;Java+Full+Stack+Developer+in+Progress;UGC+NET+JRF+Aspirant;DSA+%7C+OS+%7C+DBMS+%7C+System+Design;AI+Tools+Enthusiast;Building+Projects+Every+Day+🚀" />
 
-<img src="https://komarev.com/ghpvc/?username=routray-sabyasachhi&label=Profile+Views&color=0e75b6&style=for-the-badge" />
+<br>
+
+<img src="https://img.shields.io/badge/GATE%202025-Qualified-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/CGPA-8.63-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Java-Full%20Stack%20Learner-orange?style=for-the-badge" />
 
 </div>
 
@@ -35,12 +41,12 @@ Achievements:
 
 # 🌟 Current Goals 2026
 
-- ✅ Complete Java Full Stack Development
-- ✅ Build 15+ Production Projects
-- ✅ Master System Design
-- ✅ Crack UGC NET JRF
-- ✅ Open Source Contributions
-- 🔄 Create Personal Portfolio Website
+* ✅ Complete Java Full Stack Development
+* ✅ Build 15+ Production Projects
+* ✅ Master System Design
+* ✅ Crack UGC NET JRF
+* ✅ Open Source Contributions
+* 🔄 Create Personal Portfolio Website
 
 ---
 
@@ -92,12 +98,12 @@ Achievements:
 
 A professional business calculation suite featuring:
 
-- GST Calculator
-- EMI Calculator
-- SIP Calculator
-- Profit/Loss Calculator
-- Currency Conversion
-- Financial Planning Tools
+* GST Calculator
+* EMI Calculator
+* SIP Calculator
+* Profit/Loss Calculator
+* Currency Conversion
+* Financial Planning Tools
 
 ---
 
@@ -117,37 +123,33 @@ Implemented using C++:
 
 ---
 
-# 📊 GitHub Analytics
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=routray-sabyasachhi&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=routray-sabyasachhi&layout=compact&theme=tokyonight"/>
-
----
-
 # 🔥 GitHub Streak
 
+<p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=routray-sabyasachhi&theme=tokyonight" />
+</p>
 
 ---
 
 # 🏆 GitHub Trophy Wall
 
+<p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=routray-sabyasachhi&theme=tokyonight&row=1&column=7" />
+</p>
 
 ---
 
 # 📈 Contribution Graph
 
+<p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=routray-sabyasachhi&theme=tokyo-night" />
+</p>
 
 ---
 
 # 🧠 Coding Profiles
 
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge)](YOUR_GFG_LINK)
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge)](YOUR_LEETCODE_LINK)
+[![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge)]([https://leetcode.com/u/routray-sabyasachhi/])
 
 [![CodeChef](https://img.shields.io/badge/CodeChef-brown?style=for-the-badge)](YOUR_CODECHEF_LINK)
 
@@ -176,5 +178,9 @@ Implemented using C++:
 ### ⭐ Thanks for visiting my profile!
 
 🚀 Building Today For A Better Tomorrow
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=routray-sabyasachhi&label=Profile+Views&style=for-the-badge" />
 
 </div>
