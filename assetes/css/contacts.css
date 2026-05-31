@@ -53,7 +53,8 @@ nav ul li a {
 }
 nav ul li:hover {
     background: rgba(2, 57, 106, 0.845);
-    color: #33aaff;
+    /*color: #33aaff;*/
+    color: rgb(221, 245, 2);
     border-radius: 14px;
     transform: translateX(3px);
 }
@@ -94,7 +95,7 @@ h4 {
     overflow:hidden;
 }
 .social-icons a:hover .fa-github{
-    color: white;
+    color: rgb(255, 255, 255);
     transform: translateY(-2px);
 }
 .social-icons a:hover .fa-linkedin{
@@ -109,6 +110,8 @@ h4 {
     color: white;
     transform: translateY(-2px);
 }
+
+/* Hero section of Contacts */
 .hero{
     flex: 1;
     height: calc(100vh - 30px);
@@ -117,7 +120,7 @@ h4 {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 28px;
 }
 .hero-topbar {
     display: flex;
@@ -159,106 +162,60 @@ h4 {
 .cv-download:active {
     background: linear-gradient(270deg,rgb(8, 8, 87),rgb(12, 25, 98),rgb(2, 7, 44));
 }
-
-.hero-content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 48px;
-}
-.hero-intro {
-    color: white;
-    flex: 1;
-    max-width: 650px;
-}
-.intro {
-    color: rgb(184, 211, 216);
-    font-size: 22px;
-    margin: 0 0 12px;
-}
-.name {
+.header-contact {
     background:linear-gradient(90deg, #00bfff, #3b82f6,#8b5c56, #d946ef);
     font-weight: bold;
-    font-size: 70px;
-    line-height: 1.05;
-    margin: 0 0 18px;
+    margin-bottom: 0px;
+    margin: 0 0 2vh;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
-.role {
-    color: #ffffff;
-    font-size: 24px;
-    margin: 0 0 16px;
-}
-.hero-intro p {
-    color: rgb(184, 211, 216);
-    font-size: 18px;
-    line-height: 1.7;
-    max-width: 560px;
-    margin: 0;
-}
-
-.user-photo img{
-    height: 50vh;
-    width: 50vh;
-    border-radius: 50%;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, .35);
-}
-.btn-container{
-    display:flex;
-    gap: 10vh;
-}
-.view-work {
-    text-decoration: none;
-    padding: 10px 16px;
-    margin: 0;
-    color: white;
+.header-contact .contact-me-font {
+    background:linear-gradient(90deg, #0bc0fc, #2f74e3,#a56a62, #da18f8);
     font-weight: bold;
-    min-height: 40px;
-    width: 200px;
-    background: linear-gradient(270deg,rgb(13, 139, 188),rgb(112, 34, 208),rgb(2, 7, 44));
-    border-radius: 15px;
+    font-size: 50px;
+    line-height: 1.05;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.contact-boxes {
     display: flex;
-    transition: .3s ease;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    cursor: pointer;
+    gap: 24px;
+    width: 100%;
+    align-items: stretch;
 }
-.view-work:hover {
-    background: linear-gradient(270deg,rgb(2, 7, 44),rgb(112, 34, 208),rgb(13, 139, 188));
-    transform: translateY(-3px);
-}
-.view-work:active {
-    background: linear-gradient(270deg,rgb(13, 139, 188),rgb(112, 34, 208),rgb(2, 7, 44));
-}
-
-.contact-me {
-    text-decoration: none;
-    padding: 10px 16px;
-    margin: 0;
-    color: white;
-    font-weight: bold;
-    font-size: 110%;
-    min-height: 40px;
-    width: 200px;
-    background: rgba(255,255,255,.3);
-    backdrop-filter: blur(10px);
+.message-form {
+    flex: 1;
+    min-height: 320px;
+    border: 1.5px solid rgb(97, 97, 238);
     border-radius: 15px;
-    border: 1.5px solid rgb(115, 185, 210);
-    transition: .3s ease;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    cursor: pointer;
+    background: rgba(255, 255, 255, .03);
 }
-.contact-me:hover{
-    background:rgba(97, 96, 96, 0.8);
-    transform: translateY(-3px);
+.message-form h3 {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
 }
-.contact-me:active {
-    background:rgba(97, 96, 96, 0.2);
+.contact-data {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    border: 1.5px solid rgb(97, 97, 238);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .03);
+}
+.contact-box {
+    flex: 1;
+}
+.contact-data .fa-user{
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;;
 }
