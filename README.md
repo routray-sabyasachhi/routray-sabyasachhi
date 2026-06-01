@@ -139,14 +139,6 @@ Implemented using C++:
 
 ---
 
-# 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=routray-sabyasachhi&theme=tokyo-night" />
-</p>
-
----
-
 # 🧠 Coding Profiles
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge)]([https://leetcode.com/u/routray-sabyasachhi/])
