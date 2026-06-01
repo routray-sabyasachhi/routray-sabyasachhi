@@ -39,6 +39,9 @@ nav ul {
 nav ul li {
     margin-bottom: 8px;
 }
+nav ul li .home {
+    background: linear-gradient(90deg, rgba(37,99,235,.9), rgba(59,130,246,.3));
+}
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -139,6 +142,7 @@ h4 {
     margin: 0;
     color: white;
     font-weight: bold;
+    text-decoration: none;
     min-height: 40px;
     width: 200px;
     background: linear-gradient(270deg,rgb(8, 8, 87),rgb(12, 25, 98),rgb(2, 7, 44));

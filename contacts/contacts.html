@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacts</title>
+    <title>Contact | Sabyasachhi Routray</title>
     <link rel="stylesheet" href="../assetes/css/contacts.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="../assetes/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assetes/images/favicon-32x32.png">
@@ -41,26 +41,129 @@
         </aside>
 
         <!-- contact me hero section -->
-         <section class="hero">
+        <main class="hero">
             <div class="hero-topbar">
                 <div class="header"><span class="online">&#9812;</span> <b>Available for opportunities</b></div>
-                <section class="cv-download">Download CV <i class="fa-solid fa-download" title="Download CV"></i></section>
+                <a href="https://github.com/routray-sabyasachhi/Certifications/blob/main/Curriculum%20Vitae.pdf" class="cv-download">Download CV <i class="fa-solid fa-download" title="Download CV"></i></a>
             </div>
 
-            <div class="header-contact">
-             CONTACT ME <br/><span class="contact-me-font">Let's Work Together</span>
-            </div>
+            <header class="header-contact">
+                <span>Contact Me</span>
+                <h1 class="contact-me-font">Let's Work Together</h1>
+            </header>
+
             <div class="contact-boxes">
                 <form action="message-form-submit" method="post" class="message-form">
-                    <h3> ✦ Send Me a Message ✦</h3>
+                    <h2><i class="fa-regular fa-envelope"> </i> Send Me a Message</h2>
+
+                    <label for="message">Your message</label>
+                    <div class="message-box">
+                        <i class="fa-solid fa-pen"></i>
+                        <textarea id="message" name="message" class="message-area" placeholder="Write a short note about your project, internship, or collaboration idea." required></textarea>
+                    </div>
+
+                    <div class="submit-button">
+                        <button type="submit">Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+
+                    <p class="caution">
+                        <i class="fa-solid fa-lock"></i>
+                        Your information is safe with me.
+                    </p>
                 </form>
 
-                <aside class="contact-box">
-                    <div class="contact-data"><i class="fa-regular fa-user"> Contact Information</i></div>
-                </aside>
-            </div>
-         </section>
+                <section class="contact-info-card">
+                    <h2 class="card-title">
+                        <i class="fa-solid fa-user"></i>
+                        Contact Information
+                    </h2>
 
-        <script src="../js/message.js"></script>
+                    <div class="info-box">
+                        <div class="left">
+                            <div class="icon blue">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div class="content">
+                                <h3>Email</h3>
+                                <p>sabyasachhi.me@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <button class="copy-btn" type="button" aria-label="Copy email">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="left">
+                            <div class="icon green">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="content">
+                                <h3>Phone</h3>
+                                <p>+91 12345 67890</p>
+                            </div>
+                        </div>
+
+                        <button class="copy-btn" type="button" aria-label="Copy phone number">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="left">
+                            <div class="icon purple">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="content">
+                                <h3>Location</h3>
+                                <p>Bhubaneswar, Odisha, India, 756114</p>
+                            </div>
+                        </div>
+
+                        <button class="copy-btn" type="button" aria-label="Copy location">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="left">
+                            <div class="icon orange">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+
+                            <div class="content">
+                                <h3>Status</h3>
+                                <p>Available for Internships & Opportunities</p>
+                            </div>
+                        </div>
+
+                        <span class="status-dot green-dot" aria-label="Available"></span>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="left">
+                            <div class="icon sky">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+
+                            <div class="content">
+                                <h3>Response Time</h3>
+                                <p>Usually within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <span class="status-dot blue-dot" aria-label="Quick response"></span>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <script src="../assetes/js/message.js"></script>
 </body>
 </html>
