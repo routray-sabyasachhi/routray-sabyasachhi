@@ -21,7 +21,7 @@
             <nav>
                 <ul>
                     <li><a href="../index.html" class="home"> Home </a></li>
-                    <li><a href="#" class="about"> About</a></li>
+                    <li><a href="../about/about_me.html" class="about"> About</a></li>
                     <li><a href="#" class="skills"> Skills</a></li>
                     <li><a href="#" class="projects"> Projects</a></li>
                     <li><a href="#" class="experience"> Experience</a></li>
@@ -55,6 +55,30 @@
             <div class="contact-boxes">
                 <form action="message-form-submit" method="post" class="message-form">
                     <h2><i class="fa-regular fa-envelope"> </i> Send Me a Message</h2>
+
+                    <div class="form-row">
+                        <label for="full-name">Full name</label>
+                        <div class="form-field">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="full-name" name="full-name" placeholder="Your full name" autocomplete="name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Valid email</label>
+                        <div class="form-field">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="subject">Subject</label>
+                        <div class="form-field">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                            <input type="text" id="subject" name="subject" placeholder="Project, internship, or collaboration" required>
+                        </div>
+                    </div>
 
                     <label for="message">Your message</label>
                     <div class="message-box">
