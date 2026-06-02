@@ -272,6 +272,7 @@ h4 {
     box-shadow:
         0 28px 80px rgba(0, 0, 0, .36),
         inset 0 0 0 1px rgba(255, 255, 255, .05);
+        
 }
 
 .photo-frame {
@@ -281,6 +282,10 @@ h4 {
     border-radius: 24px;
     border: 1px solid rgba(255, 255, 255, .16);
     box-shadow: 0 24px 60px rgba(0, 0, 0, .35);
+    transition: .3s ease;
+}
+.photo-frame:hover {
+        transform: translateY(-3px);
 }
 
 .photo-frame img {
@@ -300,6 +305,7 @@ h4 {
     padding: 16px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     background: rgba(5, 13, 31, .82);
     border: 1px solid rgba(255, 255, 255, .12);
@@ -323,55 +329,10 @@ h4 {
 
 .profile-card p {
     margin: 4px 0 0;
-    color: #94a3b8;
+    color: hsl(287, 93%, 84%);
     font-size: 14px;
 }
 
-.about-details {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
-}
-
-.detail-card {
-    min-height: 190px;
-    padding: 22px;
-    background: rgba(255, 255, 255, .04);
-    border: 1px solid rgba(255, 255, 255, .08);
-    border-radius: 20px;
-    box-shadow: 0 18px 45px rgba(0, 0, 0, .18);
-    transition: .3s ease;
-}
-
-.detail-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(56, 189, 248, .26);
-}
-
-.detail-card i {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 18px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #38bdf8;
-    background: rgba(56, 189, 248, .12);
-    border-radius: 14px;
-    font-size: 20px;
-}
-
-.detail-card h2 {
-    margin: 0 0 10px;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-.detail-card p {
-    margin: 0;
-    color: #94a3b8;
-    line-height: 1.6;
-}
 
 .quick-facts {
     display: grid;
