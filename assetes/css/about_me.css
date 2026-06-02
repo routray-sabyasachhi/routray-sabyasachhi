@@ -333,6 +333,47 @@ h4 {
     font-size: 14px;
 }
 
+.vision-mission-card h1 {
+    color:#2ea3ec;
+    font-weight: 500;
+    font-family: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.vision-mission-card .fa-satellite {
+    color:#196c8c;
+    background:  rgba(10, 20, 45, .68);
+    font-size: 2rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 50%;
+}
+
+.vision-mission-card .goal-card {
+    color: white;
+    border:1.5px solid rgb(7, 115, 182);
+    text-align: center;
+    padding : 3vh;
+    border-radius: 20%;
+    transition: .3s ease;
+    margin-bottom: 14px;
+    box-shadow: 2px 2px #196c8c;
+}
+.vision-mission-card p {
+    font-size: 120%;
+}
+.vision-mission-card .goal-card:hover {
+    transform: translate(-3px,-3px);
+}
+
+.vision-mission-card .fa-bullseye {
+    color:#196c8c;
+    background:  rgba(10, 20, 45, .68);
+    font-size: 2rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 50%;
+}
 
 .quick-facts {
     display: grid;
