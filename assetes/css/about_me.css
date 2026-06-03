@@ -351,11 +351,12 @@ h4 {
     margin: 1.5rem;
 }
 
-.vision-mission-card .fa-satellite {
+.vision-mission-card img {
+    height: 10rem;
+    width: 10rem;
     color:#196c8c;
     background:  rgba(10, 20, 45, .68);
-    font-size: 2rem;
-    padding: 2rem;
+    padding: 4px;
     border: none;
     border-radius: 50%;
 }
