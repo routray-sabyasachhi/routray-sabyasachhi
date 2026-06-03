@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     padding: 15px;
     display: flex;
@@ -18,11 +18,13 @@ body {
         radial-gradient(circle at 42% 84%, rgba(217, 70, 239, .12), transparent 26%),
         #07162f;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 .sidebar {
     flex: 0 0 280px;
-    min-height: calc(100vh - 30px);
+    height: calc(100vh - 30px);
+    overflow: hidden;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -131,12 +133,15 @@ h4 {
 
 .hero {
     flex: 1;
-    min-height: calc(100vh - 30px);
+    min-width: 0;
+    min-height: 0;
+    height: calc(100vh - 30px);
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    overflow: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
     background: rgba(5, 13, 31, .92);
     border: 1px solid rgba(255, 255, 255, .06);
     border-radius: 30px;
@@ -286,6 +291,7 @@ h4 {
 }
 .photo-frame:hover {
         transform: translateY(-3px);
+        box-shadow: 5px 5px 10px 10px rgba(143, 168, 229, 0.904);
 }
 
 .photo-frame img {
@@ -332,14 +338,19 @@ h4 {
     color: hsl(287, 93%, 84%);
     font-size: 14px;
 }
-
-.vision-mission-card h1 {
+.vision-mission-header h1 {
     color:#2ea3ec;
     font-weight: 500;
     font-family: italic;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
+
+.vision-mission-card {
+    display: flex;
+    margin: 1.5rem;
+}
+
 .vision-mission-card .fa-satellite {
     color:#196c8c;
     background:  rgba(10, 20, 45, .68);
@@ -354,16 +365,18 @@ h4 {
     border:1.5px solid rgb(7, 115, 182);
     text-align: center;
     padding : 3vh;
+    margin: 2rem;
     border-radius: 20%;
     transition: .3s ease;
     margin-bottom: 14px;
-    box-shadow: 2px 2px #196c8c;
+}
+
+.vision-mission-card .goal-card:hover {
+    box-shadow: 5px 5px 10px rgba(143, 168, 229, 0.5);
+    transform: translate(-3px,-3px);
 }
 .vision-mission-card p {
     font-size: 120%;
-}
-.vision-mission-card .goal-card:hover {
-    transform: translate(-3px,-3px);
 }
 
 .vision-mission-card .fa-bullseye {
@@ -373,6 +386,52 @@ h4 {
     padding: 2rem;
     border: none;
     border-radius: 50%;
+}
+
+/* core values card*/
+
+.core-value-title:hover {
+    
+}
+.core-values-card {
+    background:#07162f;
+    border-left: 4px solid blueviolet;
+    padding:  2px 2rem 2rem 2rem;
+    margin: 50px;
+    border-radius: 20px;
+    transition: .5s ease;
+}
+.core-values-card h1 {
+    color:#2ea3ec;
+    font-size: 500;
+    font-weight: 500;
+    font-family: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.core {
+    padding: 20px;
+    backdrop-filter: blur(18px);
+    box-shadow:
+        0 0 0 1px rgba(59, 130, 246, .16),
+        0 18px 45px rgba(0, 0, 0, .24),
+        0 0 42px rgba(147, 51, 234, .1);
+        margin:20px;
+        border-radius: 15px;
+        display: flex;
+}
+.core:hover{
+    transform: translateY(-3px);
+    border-color: rgba(59, 130, 246, .25);
+    box-shadow: 0 0 25px rgba(59, 130, 246, .12);
+}
+
+.core i {
+    text-align: center;
+    padding: 10px;
+    margin:5px;
+    border-radius: 50%;
+    background-color: rgba(143, 168, 229, 0.6);
 }
 
 .quick-facts {
@@ -405,17 +464,16 @@ h4 {
 @media (max-width: 1120px) {
     body {
         flex-direction: column;
-        overflow: auto;
     }
 
     .sidebar {
-        min-height: auto;
+        height: auto;
         flex: none;
     }
 
     .hero {
-        min-height: auto;
-        overflow: visible;
+        height: auto;
+        min-height: 0;
     }
 
     .about-hero {
