@@ -162,7 +162,8 @@ h4 {
 
 .technology{
     display: flex;
-    margin: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .technology .tech-header {
@@ -171,6 +172,7 @@ h4 {
         linear-gradient(340deg, rgba(217, 70, 239, .18), transparent 46%),
         rgba(255, 255, 255, .045);
     margin: 10px;
+    min-width: 250px;
     border: 2px solid rgba(2, 57, 106, 0.845);
     border-radius: 15px;
     transition: .3s ease;
@@ -198,6 +200,41 @@ h4 {
     font-size: 25px;
     margin-right: 15px;
 }
+.technology .tech-header .fa-tools{
+    background-color: #07162f;
+    color:#2ea3ec;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.technology .tech-header .fa-github {
+     background-color: #07162f;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.technology .tech-header .fa-sitemap{
+    background-color: #07162f;
+    color:#2ea3ec;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.technology .tech-header .fa-lock {
+    color: rgb(21, 232, 21);
+    padding-right: 8px;
+}
+
+.technology .tech-header .fa-brain {
+    color:rgb(255, 242, 4);
+    padding-right: 8px;
+}
 .technology .tech-header .type {
     display:flex;
     color: white;
@@ -209,7 +246,43 @@ h4 {
     margin-right: 15px;
 }
 
+.technology .tech-header .type ul li {
+    font-size: 18px;
+    margin: 4px;
+    padding: 4px;
+}
+
 .technology .tech-header:hover {
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 5px rgba(169, 134, 234, 0.863);
+}
+.my-mission {
+    background: linear-gradient(160deg, rgba(56, 189, 248, .18), transparent 42%),
+        linear-gradient(340deg, rgba(217, 70, 239, .18), transparent 46%),
+        rgba(255, 255, 255, .045);
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        padding: flex;
+}
+.my-mission div h2 .fa-bullseye {
+    color: rgb(186, 67, 255);
+}
+.my-mission div h2 {
+    color: rgb(186, 67, 255);
+}
+.my-mission div  {
+    font-size: 20px;
+    color: white;
+}
+.my-mission div span {
+    color: rgb(186, 67, 255);
+}
+.my-mission div div img {
+    padding:8px;
+    border-radius: 50%;
+}
+.my-mission div div .fa-tools {
+    color: blue;
 }
