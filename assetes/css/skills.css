@@ -254,7 +254,7 @@ h4 {
 
 .technology .tech-header:hover {
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 5px rgba(169, 134, 234, 0.863);
+    box-shadow: 10px 10px 10px rgba(169, 134, 234, 0.4);
 }
 .my-mission {
     background: linear-gradient(160deg, rgba(56, 189, 248, .18), transparent 42%),
@@ -266,23 +266,49 @@ h4 {
         border-radius: 20px;
         padding: flex;
 }
-.my-mission div h2 .fa-bullseye {
+.my-mission  h2 .fa-bullseye {
     color: rgb(186, 67, 255);
 }
-.my-mission div h2 {
+.my-mission  h2 {
     color: rgb(186, 67, 255);
 }
 .my-mission div  {
     font-size: 20px;
     color: white;
+    padding: 8px;
+    margin-right: 40px;
 }
 .my-mission div span {
     color: rgb(186, 67, 255);
 }
+
 .my-mission div div img {
-    padding:8px;
+    background-color: white;
+    padding:14px;
+    border: 2px solid rgb(255, 0, 149);
     border-radius: 50%;
+    margin: 40px;
 }
 .my-mission div div .fa-tools {
-    color: blue;
+    padding: 10px;
+    background-color: white;
+    color: rgb(148, 16, 250);
+    font-size: 60px;
+    border-radius: 50%;
+    margin: 40px;
+    border: 2px solid rgb(255, 0, 149);
+}
+.my-mission div div .fa-rocket {
+    padding:10px;
+    background-color: white;
+    color: rgb(148, 16, 250);
+    font-size: 60px;
+    border-radius: 50%;
+    margin: 40px;
+    border: 2px solid rgb(255, 0, 149);
+}
+.my-mission div div .improve {
+    font-size: 60px;
+    background-color: white;
+    border: 2px solid rgb(255, 0, 149);
 }
