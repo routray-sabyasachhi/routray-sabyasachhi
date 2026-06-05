@@ -268,9 +268,13 @@ h4 {
 }
 .my-mission  h2 .fa-bullseye {
     color: rgb(186, 67, 255);
+    text-align: center;
+    font-size: 3rem;
 }
 .my-mission  h2 {
     color: rgb(186, 67, 255);
+    text-align: center;
+    font-size: 3rem;
 }
 .my-mission div  {
     font-size: 20px;
